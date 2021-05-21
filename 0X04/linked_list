@@ -1,0 +1,30 @@
+<array(std::vector)과 linked-list(std::list)의 차이>
+
+k번째 원소 접근                       O(1) vs O(k)
+임의 위치 원소 추가/제거              O(n) vs O(1)(추가해야되는 위치를 알고있는 경우만 O(1))
+메모리 상의 배치                      연속 vs 불연속
+추가적으로 필요한 공간(Overload)         - vs O(n)
+
+둘 다 선형 자료구조이기 때문에, 각각의 장단점을 잘 알아두고 적재적소에 사용할 것.
+임의의 위치의 원소의 추가/제거를 자주 하는 경우 linked-list 형태의 자료구조가 유리.
+
+
+<std::list>
+std::list<자료형태> L;
+std::list<자료형태> iterator it = L.begin(); 과 같이 사용.
+
+L.begin(); 리스트의 맨 앞 원소를 가르키는 iterator를 반환
+L.end(); 리스트의 맨 뒤 원소의 다음을 가르키는 iterator 반환
+L.push_front(k); L.push_back(k); 원소 k를 맨 앞/맨 뒤에 삽입. 반환값 없음
+L.pop_front(); L.pop_back(); 맨 앞/맨 뒤의 원소를 삭제. 반환값 없음
+L.insert(it,k) it(iterator)가 가리키는 위치에 원소 k를 삽입 후 삽입한 원소를 가리키는 iterator 반환 
+  반환값 원소 k를 가르키는 iterator
+  L.insert(it,k); 처럼 단독으로 사용 가능 (erase와 다른 점 꼭 숙지하기) 
+L.erase(it) it(iterator)가 가르키는 위치의 원소를 삭제 후 삭제한 원소 다음의 원소를 가리키는 iterator 반환
+  반환값 삭제한 원소 다음의 원소를 가리키는 iterator
+  L.erase(it); 로 사용하고 나면 it는 엉뚱한 값을 가리키고 있기 때문에 런타임 에러가 자주 발생
+  따라서 it = L.erase(it) 또는 L.erase(it++)처럼 반드시 it를 유효한 값을 가리키도록 처리해주는 것 잊지말기!
+L.size(); 리스트의 size 반환
+L.remove(k); k와 같은 모든 원소 제거
+L.remove_if(predicate); 단항 조건자 predicate에 해당되는 모든 원소 제거
+L.sort(); 모든 원소를 오름차순으로 정렬. 파라미터에 단항 조건자가 오는 경우 그 조건에 맞추어서 정렬
