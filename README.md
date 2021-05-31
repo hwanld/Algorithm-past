@@ -11,3 +11,5 @@ https://blog.encrypted.gg/
 2021.05.22 0x04)BOJ1406
 
 2021.05.25 0x04)BOJ5397
+
+2021.05.31 0x04)BOJ1158(runtime ERROR)
