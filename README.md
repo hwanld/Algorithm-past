@@ -17,3 +17,5 @@ https://blog.encrypted.gg/
 2021.06.06 0x04)BOJ1158(runtime ERROR), 0x05)BOJ10828, 0x05)BOJ10773
 
 2021.06.08 0x05)BOJ1874(Stack을 활용해서 풀었으나 나중에 BFS/DFS를 공부하고 다시 볼 것)
+
+2021.07.27 0x05)BOJ2493(Stack을 활용해서 풀어야 하는 문제, BFS/DFS를 공부하고 다시 볼 것)
