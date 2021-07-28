@@ -20,3 +20,5 @@ https://blog.encrypted.gg/
 
 2021.07.27 0x05)BOJ2493_실패(Stack을 활용해서 풀어야 하는 문제, BFS/DFS를 공부하고 다시 볼 것)
            BOJ 9093
+           
+2021.07.28 BOJ9012
