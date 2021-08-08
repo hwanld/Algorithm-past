@@ -1,4 +1,4 @@
-# Basic-Algorim-Study
+# Basic-Algorithm-Study
 
 2021.05.19 0x02)BOJ10871, 0x03)0x03, 0x03)BOJ10807, 0x03)BOJ10808
 
