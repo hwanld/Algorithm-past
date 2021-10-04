@@ -1,4 +1,4 @@
-#Reculsion
+<h2>Reculsion</h2>
 <pre>
 ex) int func1 (int n) {<br>
     if (n==1) return 1;<br>
