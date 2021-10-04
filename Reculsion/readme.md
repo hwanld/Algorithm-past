@@ -8,7 +8,7 @@ ex) int func1 (int n) {
 1) 절차지향적 사고
     func(3) -> 3+func(2) -> 3+2+func(1) -> 3+2+1+func(0) = 3+2+1+0 -> func(k)는 1~k의 합
 2) 귀납적 사고
-    func(1)은 1을 return한다. -> func(k)가 1~k까지의 합을 return한다고 가정한다 -> func(k+1)은 func(k)+(k+1)을 반환한다. -> func(k)는 1~k의 합
-<br>
+    func(1)은 1을 return한다. -> func(k)가 
+    
 올바른 재귀 함수는 반드시 특정 입력에 대해서는 자기 자신을 호출하지 않고 종료되어아 한다. 이러한 입력을 base condition 또는 base case라고 한다. 
-또한 모든 입력은 결곡 base condition으로 수렵해야 한다.
+또한 모든 입력은 결곡 base condition으로 수렴해야 한다.
