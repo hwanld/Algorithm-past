@@ -3,7 +3,7 @@
 ex) int func1 (int n) {<br>
   if (n==1) return 1;<br>
   else return n+func1(n-1);<br>
-}<br>
+}<br><br>
 라는 코드가 있다고 가정, 위 함수를 해석하는 데에는 1) 절차지향적 사고 2)귀납적 사고 2가지의 방법이 존재한다.
 1) 절차지향적 사고
     func(3) -> 3+func(2) -> 3+2+func(1) -> 3+2+1+func(0) = 3+2+1+0 -> func(k)는 1~k의 합
