@@ -2,7 +2,8 @@
 
 BFS(Breadth First Search) : 다차원 배열에서 각 칸을 방문할 때 너비를 우선으로 방문하는 알고리즘
 
-![image-20211028191206041](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20211028191206041.png)
+![image](https://user-images.githubusercontent.com/84431962/139244888-005a18ac-2201-4920-86a9-6b9fd55c7f45.png)
+
 
 각 칸을 방문할 때 너비를 우선으로 방문하는 알고리즘.
 
@@ -21,9 +22,10 @@ int main() {
 
 값의 접근은 각각 first, second를 부름으로서 가능하고 또 pair에는 미리 대소 관계가 설정되어 있어서 편하다. 알아서 앞쪽 값을 먼저 비교하고 이후 뒤쪽 값을 비교한다.
 
+![image](https://user-images.githubusercontent.com/84431962/139244947-0c4a0f9e-88c5-413b-8854-9d8b8ef30f00.png)
 
 
-![image-20211028192002664](C:\Users\User\AppData\Roaming\Typora\typora-user-images\image-20211028192002664.png)
+
 
 위 표에서 (0,0)을 최초로 방문하였다고 가정하고, 연결되어 있는 파란색 영역에 대해서 마킹을 하는 예제를 풀어보자.
 
