@@ -98,3 +98,7 @@
 2021.10.30 BOJ2178
 
 2021.11.02 Programmers Lv1) 로또의 최고 순위와 최저 순위
+
+2021.11.03 Programmers Lv1) 신규 아이디 추천
+
+2021.11.04 Programmers Lv1) 숫자 문자열과 영단어
