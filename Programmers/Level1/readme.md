@@ -4,3 +4,5 @@
 https://programmers.co.kr/learn/courses/30/lessons/77484<br><br>
 <b>2021.11.03</b> 신규 아이디 추천 <br>
 https://programmers.co.kr/learn/courses/30/lessons/72410<br><br>
+<b>2021.11.04</b> 숫자 문자열과 영단어 <br>
+https://programmers.co.kr/learn/courses/30/lessons/81301<br><br>
