@@ -1,4 +1,4 @@
-<h3>reculsion</h3>
+<h3>recursion</h3>
 <pre>
 ex) int func1 (int n) {<br>
     if (n==1) return 1;<br>
